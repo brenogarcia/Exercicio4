@@ -1,18 +1,16 @@
 ﻿using Fiap.PlataformaNet.ConceitosCSharp.WindowsApp.Domain;
 using System;
-using System.Collections.Generic;
-using System.Data.SqlClient;
 using System.Configuration;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Dapper;
+using System.Data.SqlClient;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace Fiap.PlataformaNet.ConceitosCSharp.WindowsApp.Repository
 {
-    class EventoRepository : IBaseRepository<EventoDomain, int>
+    public class EventoRepository
     {
-        private string _conn = ConfigurationManager.AppSettings.Get("BancoEventos");
+        private string _connectionString = ConfigurationManager.ConnectionStrings["BancoEventos"].ConnectionString;
 
         private static readonly Lazy<EventoRepository> lazy = new Lazy<EventoRepository>(() => new EventoRepository());
 
@@ -20,33 +18,24 @@ namespace Fiap.PlataformaNet.ConceitosCSharp.WindowsApp.Repository
 
         private EventoRepository() { }
 
-        public bool Delete(int id)
+        public void SalvarEvento(EventoDomain evento)
         {
-            throw new NotImplementedException();
-        }
-
-        public IEnumerable<EventoDomain> FindAll()
-        {
-            throw new NotImplementedException();
-        }
-
-        public EventoDomain FindById(int id)
-        {
-            throw new NotImplementedException();
-        }
-
-        public bool Insert(EventoDomain domain)
-        {
-            using (var conn = new SqlConnection(_conn))
+            using (var conexao = new SqlConnection(_connectionString))
             {
-                conn.ExecuteScalar("insert", domain);
+                conexao.Execute("Insert into TBEventos values(@data, @descricao, @responsavel)", evento);
             }
-                return true;
         }
 
-        public bool Update(EventoDomain domain)
+        public List<EventoDomain> BuscarEvento()
         {
-            throw new NotImplementedException();
+            var query = @" Select * from TBEventos";
+
+            using (var sqlConnection = new SqlConnection(_connectionString))
+            {
+                var listaEventos = sqlConnection.Query<EventoDomain>(query);
+
+                return listaEventos.ToList();
+            }
         }
     }
 }

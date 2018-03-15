@@ -34,7 +34,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.descricaoTextBox = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.dataMaskedTextBox = new System.Windows.Forms.MaskedTextBox();
+            this.dataEventoMaskedTextBox = new System.Windows.Forms.MaskedTextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.listarPorEventoButton = new System.Windows.Forms.Button();
@@ -58,7 +58,7 @@
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.descricaoTextBox);
             this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Controls.Add(this.dataMaskedTextBox);
+            this.groupBox1.Controls.Add(this.dataEventoMaskedTextBox);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Location = new System.Drawing.Point(12, 12);
             this.groupBox1.Name = "groupBox1";
@@ -109,14 +109,14 @@
             this.label2.TabIndex = 2;
             this.label2.Text = "Descrição:";
             // 
-            // dataMaskedTextBox
+            // dataEventoMaskedTextBox
             // 
-            this.dataMaskedTextBox.Location = new System.Drawing.Point(99, 25);
-            this.dataMaskedTextBox.Mask = "00/00/0000";
-            this.dataMaskedTextBox.Name = "dataMaskedTextBox";
-            this.dataMaskedTextBox.Size = new System.Drawing.Size(86, 20);
-            this.dataMaskedTextBox.TabIndex = 1;
-            this.dataMaskedTextBox.ValidatingType = typeof(System.DateTime);
+            this.dataEventoMaskedTextBox.Location = new System.Drawing.Point(99, 25);
+            this.dataEventoMaskedTextBox.Mask = "00/00/0000";
+            this.dataEventoMaskedTextBox.Name = "dataEventoMaskedTextBox";
+            this.dataEventoMaskedTextBox.Size = new System.Drawing.Size(86, 20);
+            this.dataEventoMaskedTextBox.TabIndex = 1;
+            this.dataEventoMaskedTextBox.ValidatingType = typeof(System.DateTime);
             // 
             // label1
             // 
@@ -153,6 +153,7 @@
             this.listarPorEventoButton.TabIndex = 11;
             this.listarPorEventoButton.Text = "Listar por Evento";
             this.listarPorEventoButton.UseVisualStyleBackColor = true;
+            this.listarPorEventoButton.Click += new System.EventHandler(this.ListarPorEventoButton_Click);
             // 
             // listBox1
             // 
@@ -170,6 +171,7 @@
             this.incluirConvidadoButton.TabIndex = 10;
             this.incluirConvidadoButton.Text = "Incluir Convidado";
             this.incluirConvidadoButton.UseVisualStyleBackColor = true;
+            this.incluirConvidadoButton.Click += new System.EventHandler(this.IncluirConvidadoButton_Click);
             // 
             // emailTextBox
             // 
@@ -210,6 +212,7 @@
             this.eventoComboBox.Name = "eventoComboBox";
             this.eventoComboBox.Size = new System.Drawing.Size(223, 21);
             this.eventoComboBox.TabIndex = 1;
+            this.eventoComboBox.Click += new System.EventHandler(this.EventoComboBox_Click);
             // 
             // label4
             // 
@@ -256,7 +259,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox descricaoTextBox;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.MaskedTextBox dataMaskedTextBox;
+        private System.Windows.Forms.MaskedTextBox dataEventoMaskedTextBox;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.Button listarPorEventoButton;

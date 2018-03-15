@@ -19,3 +19,15 @@ C:\Users\logonrm\Desktop\Fiap.PlataformaNet.ConceitosCSharp\Fiap.PlataformaNet.C
 C:\Users\logonrm\Desktop\Fiap.PlataformaNet.ConceitosCSharp\Fiap.PlataformaNet.ConceitosCSharp.WindowsApp\bin\Debug\Dapper.dll
 C:\Users\logonrm\Desktop\Fiap.PlataformaNet.ConceitosCSharp\Fiap.PlataformaNet.ConceitosCSharp.WindowsApp\bin\Debug\Dapper.xml
 C:\Users\logonrm\Desktop\Fiap.PlataformaNet.ConceitosCSharp\Fiap.PlataformaNet.ConceitosCSharp.WindowsApp\obj\Debug\Fiap.PlataformaNet.ConceitosCSharp.WindowsApp.csprojResolveAssemblyReference.cache
+F:\Source\FIAP\Arquitetura_C#\Ex_4\Exercicio4\Fiap.PlataformaNet.ConceitosCSharp.WindowsApp\bin\Debug\Fiap.PlataformaNet.ConceitosCSharp.WindowsApp.exe.config
+F:\Source\FIAP\Arquitetura_C#\Ex_4\Exercicio4\Fiap.PlataformaNet.ConceitosCSharp.WindowsApp\bin\Debug\Fiap.PlataformaNet.ConceitosCSharp.WindowsApp.exe
+F:\Source\FIAP\Arquitetura_C#\Ex_4\Exercicio4\Fiap.PlataformaNet.ConceitosCSharp.WindowsApp\bin\Debug\Fiap.PlataformaNet.ConceitosCSharp.WindowsApp.pdb
+F:\Source\FIAP\Arquitetura_C#\Ex_4\Exercicio4\Fiap.PlataformaNet.ConceitosCSharp.WindowsApp\bin\Debug\Dapper.dll
+F:\Source\FIAP\Arquitetura_C#\Ex_4\Exercicio4\Fiap.PlataformaNet.ConceitosCSharp.WindowsApp\bin\Debug\Dapper.xml
+F:\Source\FIAP\Arquitetura_C#\Ex_4\Exercicio4\Fiap.PlataformaNet.ConceitosCSharp.WindowsApp\obj\Debug\Fiap.PlataformaNet.ConceitosCSharp.WindowsApp.FormCadastro.resources
+F:\Source\FIAP\Arquitetura_C#\Ex_4\Exercicio4\Fiap.PlataformaNet.ConceitosCSharp.WindowsApp\obj\Debug\Fiap.PlataformaNet.ConceitosCSharp.WindowsApp.Properties.Resources.resources
+F:\Source\FIAP\Arquitetura_C#\Ex_4\Exercicio4\Fiap.PlataformaNet.ConceitosCSharp.WindowsApp\obj\Debug\Fiap.PlataformaNet.ConceitosCSharp.WindowsApp.csproj.GenerateResource.Cache
+F:\Source\FIAP\Arquitetura_C#\Ex_4\Exercicio4\Fiap.PlataformaNet.ConceitosCSharp.WindowsApp\obj\Debug\Fiap.PlataformaNet.ConceitosCSharp.WindowsApp.exe
+F:\Source\FIAP\Arquitetura_C#\Ex_4\Exercicio4\Fiap.PlataformaNet.ConceitosCSharp.WindowsApp\obj\Debug\Fiap.PlataformaNet.ConceitosCSharp.WindowsApp.pdb
+F:\Source\FIAP\Arquitetura_C#\Ex_4\Exercicio4\Fiap.PlataformaNet.ConceitosCSharp.WindowsApp\bin\Debug\DBEVENTOS.mdf
+F:\Source\FIAP\Arquitetura_C#\Ex_4\Exercicio4\Fiap.PlataformaNet.ConceitosCSharp.WindowsApp\bin\Debug\DBEVENTOS_log.ldf
