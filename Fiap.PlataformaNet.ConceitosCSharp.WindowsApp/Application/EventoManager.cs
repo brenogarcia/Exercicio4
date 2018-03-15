@@ -23,5 +23,10 @@ namespace Fiap.PlataformaNet.ConceitosCSharp.WindowsApp.Business
 
             return listaEvento;
         }
+
+        internal static void SalvarConvidado(ConvidadoDomain convidado)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

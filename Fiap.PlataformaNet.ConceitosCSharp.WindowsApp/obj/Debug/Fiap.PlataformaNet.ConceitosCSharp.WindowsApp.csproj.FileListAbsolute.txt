@@ -31,3 +31,4 @@ F:\Source\FIAP\Arquitetura_C#\Ex_4\Exercicio4\Fiap.PlataformaNet.ConceitosCSharp
 F:\Source\FIAP\Arquitetura_C#\Ex_4\Exercicio4\Fiap.PlataformaNet.ConceitosCSharp.WindowsApp\obj\Debug\Fiap.PlataformaNet.ConceitosCSharp.WindowsApp.pdb
 F:\Source\FIAP\Arquitetura_C#\Ex_4\Exercicio4\Fiap.PlataformaNet.ConceitosCSharp.WindowsApp\bin\Debug\DBEVENTOS.mdf
 F:\Source\FIAP\Arquitetura_C#\Ex_4\Exercicio4\Fiap.PlataformaNet.ConceitosCSharp.WindowsApp\bin\Debug\DBEVENTOS_log.ldf
+F:\Source\FIAP\Arquitetura_C#\Ex_4\Exercicio4\Fiap.PlataformaNet.ConceitosCSharp.WindowsApp\obj\Debug\Fiap.PlataformaNet.ConceitosCSharp.WindowsApp.csprojResolveAssemblyReference.cache
